@@ -1,0 +1,64 @@
+.rounded-search{
+    border-radius: 50px;
+    width: 60%;
+    border: 0;
+}
+.hoverTab1:hover{
+    background-color: #f9f7f7;
+    margin: 0;
+}
+/* Home.css */
+
+.logo {
+    padding-top: 4rem; /* Default padding for large screens */
+}
+
+/* Apply different padding for medium and small screens */
+@media (max-width: 768px) { /* Medium screens */
+    .logo {
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 480px) { /* Small screens */
+    .logo {
+        padding-top: 2rem;
+    }
+}
+
+/* Custom scrollbar styles */
+.custom-scroll::-webkit-scrollbar {
+    width: 0px; /* Remove the scrollbar width */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: transparent; /* Make the scrollbar thumb transparent */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: transparent; /* Make the scrollbar track transparent */
+}
+
+/* Flex container for the search bar */
+.flexSearch {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 9999px; /* Fully rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 8px 16px; /* Padding inside the search bar */
+    max-width: 600px; /* Max width for larger screens */
+    width: 100%; /* Full width for smaller screens */
+}
+
+/* Style for the input field */
+.flexSearch input {
+    flex-grow: 1; /* Allows the input to take up available space */
+    border: none; /* Removes default border */
+    background-color: transparent; /* Ensures background is transparent */
+    padding: 0 0px; /* Padding inside the input field */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    outline: none; /* Removes default outline */
+}
+
